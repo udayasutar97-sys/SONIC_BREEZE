@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONIC-Breeze</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href='style.css'/>
+    <link rel="stylesheet" href='blower.css'/>
+    <style>
+     #play3{
+        height:50%;
+        width:70%;
+        max-width:400px;
+        max-height:480px;
+        margin-bottom:5%;
+      padding-top:35%;
+
+        
+        
+    
+     }
+     a{}
+     footer{
+    position: fixed;
+    bottom: 0;
+}
+    #image-fan{
+      width:80%;
+      
+      height:80%;
+      max-height:200em;
+     
+
+      
+    }
+     #img{
+        background-color:white;
+      width:70%; height:55%;
+        border-radius:30px;
+      margin-top:5%;
+
+        
+     }
+     h2{
+      margin-top:10%;
+      
+     }
+     .btn-grad {
+      background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)
+    }
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            font-size:30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+  </style>
+
+</head>
+
+<body>
+    <center>
+      <h2>
+          SONIC-BREEZE
+      </h2>
+      <div id="img">
+        <center>
+        <br>
+        <img id="image-fan" src="fan.png"/>
+        </center>
+      </div>
+    
+     <br>
+        <br><br>
+        <br><br>
+        <br><br>
+        
+      <div>
+        
+       <button class="btn-grad" onclick="blow()">Air On</button>
+        
+      </div>
+    
+  
+  <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:5f9d35b3-bb78-4c7a-b786-bd0ee723f8e1"  target="_blank" class="text">
+ 
+  ℹ️ How this works ?
+
+  </a>
+
+</center>
+    <script src="blower.js"></script>
+</body>
+</html>
